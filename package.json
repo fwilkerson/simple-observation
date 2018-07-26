@@ -1,0 +1,28 @@
+{
+  "name": "simple-observation",
+  "version": "1.0.0",
+  "description": "A simple observation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm simple-observation.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fwilkerson/simple-observation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fwilkerson/simple-observation/issues"
+  },
+  "homepage": "https://github.com/fwilkerson/simple-observation#readme",
+  "devDependencies": {
+    "esm": "^3.0.72",
+    "japa": "^1.0.6",
+    "sinon": "^6.1.4"
+  },
+  "dependencies": {
+    "redux": "^4.0.0"
+  }
+}
